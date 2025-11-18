@@ -2,7 +2,7 @@ import asyncio
 import random
 
 async def provjeri_parnost(broj: int) -> str:
-    """Simulira super zahtjevnu provjeru parnosti (API poziv od 2 sekunde)."""
+    '''Simulira super zahtjevnu provjeru parnosti (API poziv od 2 sekunde).'''
     await asyncio.sleep(2)  # simulacija čekanja vanjskog API-ja
     if broj % 2 == 0:
         return f"Broj {broj} je paran."

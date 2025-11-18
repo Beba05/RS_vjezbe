@@ -1,7 +1,7 @@
 import asyncio
 
 async def secure_data(podaci: dict) -> dict:
-    """Simulira enkripciju osjetljivih podataka (3 sekunde)."""
+    '''Simulira enkripciju osjetljivih podataka (3 sekunde).'''
     await asyncio.sleep(3)  # simulacija enkripcije na poslužitelju
 
     prezime = podaci['prezime']
